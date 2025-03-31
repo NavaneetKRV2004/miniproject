@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Viewer</title>
+</head>
+<body>
+  <h1>Viewer Page</h1>
+  <video id="remoteVideo" autoplay playsinline style="width: 100%; max-width: 600px;"></video>
+  <br>
+  <button onclick="connectToStream()">View Stream</button>
+  <div id="logBox" style="margin-top:20px; padding:10px; border:1px solid #ccc; font-family:monospace; background:#f9f9f9;"></div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  <script src="app-viewer.js"></script>
+</body>
+</html>
